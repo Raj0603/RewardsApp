@@ -1,0 +1,103 @@
+.fd-mc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(229, 236, 255, 1);
+  border-radius: 30px;
+  height: 63vh;
+  width: 66vw;
+  padding: 20px;
+}
+
+.da-btn {
+  width: 9rem;
+  height: 2.5rem;
+  background-color: rgba(242, 99, 95, 1);
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.form-dc {
+  padding: 20px;
+  width: 63vw;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  height: 60vh;
+}
+
+.dc-image{
+    width: 63vw;
+    height: 40vh;
+    object-fit: contain;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 10px;
+}
+
+.dc-name{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    font-weight: 700;
+    font-size: larger;
+    padding: 0 15px 0 15px;
+}
+
+.dc-fd{
+    font-weight: 600;
+    font-size: medium;
+}
+.dc-desc{
+    padding: 0 15px 0 15px;
+}
+
+.cd-mc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(229, 236, 255, 1);
+  border-radius: 30px;
+  height: 63vh;
+  width: 66vw;
+  padding: 20px;
+
+}
+
+.cnf-text{
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.cnf-no, .cnf-yes{
+  width: 4rem;
+  padding: 6px;
+  border-radius: 16px;
+  color: white;
+  border: none;
+  font-size: medium;
+  font-weight: 700;
+  background-color: rgba(56, 182, 255, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+}
+
+.cnf-yes{
+  background-color: 
+  rgba(242, 99, 95, 1);
+  width: 10rem;
+  border-radius: 10px;
+}
+
+.confirm-div{
+  display: flex;
+  width: 18vw;
+  margin-top: 12px;
+  justify-content: space-around;
+}

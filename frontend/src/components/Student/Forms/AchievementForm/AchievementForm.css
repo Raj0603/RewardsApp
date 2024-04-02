@@ -1,0 +1,57 @@
+.af-mc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(229, 236, 255, 1);
+    border-radius: 60px;
+    height: 58vh;
+    width: 63vw;
+    padding: 40px;
+}
+
+.na-text{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.af-label{
+    height: 5vh;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.af-pp{
+    height: 60px;
+    width: 60px;
+}
+  
+.afs-div{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.afs-btn{
+    width: 12rem;
+    height: 2.5rem;
+    /* padding: 20px; */
+    background-color: rgba(56, 182, 255, 1);
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.upload-span{
+    font-size: small;
+    font-weight: 500;
+}
+  

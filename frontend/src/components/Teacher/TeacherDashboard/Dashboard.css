@@ -1,0 +1,165 @@
+.teacher-dashboard {
+  background-color: rgba(240, 240, 240, 1);
+  height: 97vh;
+  width: 100vw;
+  padding-top: 3vh;
+}
+
+.td-mc {
+  width: 93vw;
+  margin-left: 2vw;
+  background-color: white;
+  height: 78vh;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+
+.td-lc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60vh;
+  margin-left: 4vw;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 40vh;
+}
+
+.form-img {
+  height: 25vh;
+}
+
+.line-span {
+  width: 8vw;
+  height: 2px;
+  background-color: #383838;
+}
+
+.verify-form {
+  width: 8rem;
+  height: 2.5rem;
+  /* padding: 20px; */
+  background-color: rgba(56, 182, 255, 1);
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.td-rc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 74vh;
+  margin-left: 4vw;
+}
+
+.tdr-up {
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+}
+
+.td-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(192, 209, 255, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 18vh;
+  width: 10vw;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-number {
+  font-weight: 700;
+  font-size: 100px;
+  color: white;
+  line-height: 80px;
+}
+
+.card-det {
+  color: rgba(56, 56, 56, 1);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.tdr-down {
+  display: flex;
+  justify-content: space-between;
+}
+
+.td-ws,
+.td-rs {
+  padding: 20px;
+  height: 38vh;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 28vw;
+  justify-content: space-around;
+}
+
+.ws-text {
+  font-size: xx-large;
+}
+
+.ws-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ws-input {
+  background-color: rgba(240, 240, 240, 1);
+  border: none;
+  border-radius: 10px;
+  padding: 13px;
+  font-size: medium;
+}
+
+.ws-srb,
+.ws-swb {
+  padding: 10px;
+  width: 8rem;
+  border-radius: 10px;
+  font-size: medium;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.ws-srb {
+  border: 2px solid rgba(15, 185, 0, 1);
+  background-color: rgba(191, 237, 179, 1);
+  color: rgba(15, 185, 0, 1);
+}
+
+.ws-swb {
+  border: 2px solid rgba(254, 75, 75, 1);
+  background-color: rgba(255, 192, 192, 1);
+  color: rgba(206, 77, 53, 1);
+}
+
+.vf-rc{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70vw;
+  margin-left: 4vw;
+  overflow: auto;
+}

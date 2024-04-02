@@ -1,0 +1,25 @@
+.warning-mc {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: rgba(229, 236, 255, 1);
+  border-radius: 40px;
+  height: 70vh;
+  width: 65vw;
+  padding: 20px 30px 20px 30px;
+  overflow: auto;
+}
+
+.wc-mc {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #9c9c9c;
+  font-weight: 600;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 15px;
+  gap: 10px;
+
+}

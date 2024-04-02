@@ -1,0 +1,83 @@
+.tfd-mc {
+  width: 90vw;
+  height: 78vh;
+  padding: 20px 20px 20px 40px;
+  background-color: white;
+  box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 3vw;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tfd-ud {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.tfd-ld {
+  background-color: rgba(239, 239, 239, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 67vh;
+  width: 87vw;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.ld-lc {
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 8px;
+}
+
+.tfd-img {
+  width: 60vw;
+  height: 65vh;
+  object-fit: contain;
+}
+
+.ld-rc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 3vw;
+  width: 40vw;
+}
+
+.tfd-fd{
+    display: flex;
+    flex-direction: column;
+}
+
+.tfd-data{
+    font-weight: 700;
+}
+
+.tfd-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tfd-rbtn,
+.tfd-abtn {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) inset;
+  padding: 10px;
+  width: 5rem;
+  height: 5.5vh;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+  border: none;
+  margin: 10px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tfd-abtn {
+  background-color: rgba(116, 198, 109, 1);
+}
+
+.tfd-rbtn {
+  background-color: rgba(242, 99, 95, 1);
+}

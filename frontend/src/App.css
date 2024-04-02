@@ -1,0 +1,45 @@
+#root{
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: "Source Sans 3", sans-serif;
+    color: #383838;
+  }
+  
+  input::-webkit-inner-spin-button,
+  input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  *::-webkit-scrollbar {
+      width: 0 !important
+  }
+  
+  html,
+  body {
+      overflow: -moz-scrollbars-none;
+      -ms-overflow-style: none;
+  }
+  
+  a{
+    color: inherit;
+  }
+  a:visited {
+    color: inherit;
+  }
+
+  
+  /* Remove the default blue color on active links (when clicked) */
+  a:active {
+    color: inherit;
+  }
+
+  /* html{
+    padding-top: 3vh;
+  } */
